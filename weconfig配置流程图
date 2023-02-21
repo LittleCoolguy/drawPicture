@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-21T02:58:17.190Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.50" etag="bRnAkOjxSufJVReLzmt6" version="20.8.20" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-21T03:02:01.240Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.50" etag="gZl8cdrfiCe8gvDnEX68" version="20.8.20" type="github">
   <diagram name="第 1 页" id="hsoEKMYYipIEac6ZyNFN">
     <mxGraphModel dx="1026" dy="575" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -95,8 +95,40 @@
         <mxCell id="Yxf4OgIgXQTvz24bFZye-28" value="MD5校验版本一致性" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="340" y="160" width="70" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Yxf4OgIgXQTvz24bFZye-30" value="结束" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Yxf4OgIgXQTvz24bFZye-30" value="结束" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="440" y="490" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Yxf4OgIgXQTvz24bFZye-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Yxf4OgIgXQTvz24bFZye-32" target="Yxf4OgIgXQTvz24bFZye-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Yxf4OgIgXQTvz24bFZye-32" value="开始" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="640" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Yxf4OgIgXQTvz24bFZye-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Yxf4OgIgXQTvz24bFZye-33" target="Yxf4OgIgXQTvz24bFZye-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Yxf4OgIgXQTvz24bFZye-33" value="模块读取配置" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="640" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Yxf4OgIgXQTvz24bFZye-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Yxf4OgIgXQTvz24bFZye-36" target="Yxf4OgIgXQTvz24bFZye-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Yxf4OgIgXQTvz24bFZye-40" value="存在" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Yxf4OgIgXQTvz24bFZye-39">
+          <mxGeometry x="0.15" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Yxf4OgIgXQTvz24bFZye-42" value="不存在" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Yxf4OgIgXQTvz24bFZye-36" target="Yxf4OgIgXQTvz24bFZye-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Yxf4OgIgXQTvz24bFZye-36" value="内存中查询配置" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="620" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Yxf4OgIgXQTvz24bFZye-38" value="从内存中读取配置信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="590" width="74" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Yxf4OgIgXQTvz24bFZye-41" value="加载配置属性" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="680" width="74" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
