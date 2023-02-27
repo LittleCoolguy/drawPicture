@@ -1,10 +1,13 @@
-<mxfile host="app.diagrams.net" modified="2023-02-27T03:04:07.951Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.50" etag="NBaHZr5R0IVv0PISIFBV" version="20.8.23" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-27T03:17:15.307Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.50" etag="o8Mkq6RwbarqctjvmgJ-" version="20.8.23" type="github">
   <diagram name="第 1 页" id="Tu88x5kcEHJp7b-8ocxl">
     <mxGraphModel dx="1004" dy="575" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="xwDMop1V2xlGMRTcUajS-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="xwDMop1V2xlGMRTcUajS-1" target="xwDMop1V2xlGMRTcUajS-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xwDMop1V2xlGMRTcUajS-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="xwDMop1V2xlGMRTcUajS-1" target="xwDMop1V2xlGMRTcUajS-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="xwDMop1V2xlGMRTcUajS-1" value="开始" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -14,7 +17,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="xwDMop1V2xlGMRTcUajS-2" value="客户端定时发送心跳请求" style="rounded=0;whiteSpace=wrap;html=1;direction=south;" vertex="1" parent="1">
-          <mxGeometry x="180" y="480" width="80" height="40" as="geometry" />
+          <mxGeometry x="180" y="530" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="xwDMop1V2xlGMRTcUajS-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="xwDMop1V2xlGMRTcUajS-4" target="xwDMop1V2xlGMRTcUajS-6">
           <mxGeometry relative="1" as="geometry" />
@@ -36,6 +39,9 @@
         </mxCell>
         <mxCell id="xwDMop1V2xlGMRTcUajS-10" value="推送用户获取事件更新" style="rounded=0;whiteSpace=wrap;html=1;direction=south;" vertex="1" parent="1">
           <mxGeometry x="420" y="540" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xwDMop1V2xlGMRTcUajS-12" value="服务端启动协程，定时更新超时次数" style="rounded=0;whiteSpace=wrap;html=1;direction=south;" vertex="1" parent="1">
+          <mxGeometry x="180" y="420" width="80" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
